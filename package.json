@@ -1,9 +1,17 @@
 {
-  "description": "",
   "name": "bootstrap_test",
-	"homepage": "https://JennyDisc.github.io/bootstrap_test",
+  "homepage": "https://JennyDisc.github.io/bootstrap_test",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
