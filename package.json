@@ -3,7 +3,7 @@
   "homepage": "https://JennyDisc.github.io/bootstrap_test",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d src"
   },
   "dependencies": {
     "gh-pages": "^6.0.0"
